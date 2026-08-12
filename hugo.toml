@@ -12,7 +12,7 @@ relativeURLs = "true"
 #canonifyURLs = "true"
 
 # Local
-baseURL = "/"
+baseURL = "https://github.com/birdyyym-oss/birdyyym-oss.github.io"
 publishDir = "public"
 
 # Remote

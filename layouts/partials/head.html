@@ -1,0 +1,75 @@
+<head>
+	<title>{{ .Site.Title }}</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+	{{ if .Site.Params.favicon }}
+	{{ partial "favicon" }}
+	{{ end }}
+	
+	<!-- CSS -->
+	{{ if hugo.IsServer }}
+	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
+	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+	{{ else }}
+	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "enableSourceMap" false) }}
+	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
+	{{ end }}
+	{{ if hugo.IsServer }}
+	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "enableSourceMap" false) }}
+	<noscript><link rel="stylesheet" href="{{ ($noscript).RelPermalink }}" /></noscript>
+	{{ else }}
+	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "enableSourceMap" false) }}
+	<noscript><link rel="stylesheet" href="{{ ($noscript | minify).RelPermalink }}" /></noscript>
+	{{ end }}
+
+	<style>
+  	/* 统一的全局遮罩与弹窗动画样式 */
+  	.custom-overlay {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    z-index: 10000; display: flex; align-items: center; justify-content: center;
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+ 	}
+  	.custom-overlay.active { opacity: 1; visibility: visible; }
+  
+  	/* 弹窗外壳：负责全局限高与圆角，隐藏外部溢出 */
+  	.custom-modal {
+    margin: 0 20px; position: relative; max-width: 800px; width: 100%;
+    background-color: #ffffff; border-radius: 8px;
+    transform: translateY(20px); transition: transform 0.3s ease;
+    max-height: 80vh; 
+    display: flex; flex-direction: column; overflow: hidden;
+  	}
+  	.custom-overlay.active .custom-modal { transform: translateY(0); }
+  
+  	/* 固定在右上角的关闭按钮 */
+  	.modal-close {
+  	position: absolute; top: 15px; right: 20px; z-index: 10;
+    border-bottom: none !important; font-size: 1.5em; line-height: 1;
+    color: #333333; opacity: 0.4; transition: opacity 0.3s ease;
+  	}
+  	.modal-close:hover { opacity: 1; }
+
+  	/* 独立的内容滑动区 */
+  	.modal-body {
+    overflow-y: auto; padding: 2.5em; color: #333333;
+  	}
+
+  	.gallery article .image img {
+    width: 100%;
+    height: 500px; /* 您可以根据需要调整这个高度 */
+    object-fit: cover; /* 核心：保持比例自动裁切 */
+    display: block; /* 清除底部间隙 */
+	}
+	</style>
+	
+	<!-- FontAwesome CSS -->
+	{{ range .Site.Params.asset.fontawesome_css -}}
+		<link rel="stylesheet" href="{{ . | absURL }}">
+	{{- end }}
+
+</head>

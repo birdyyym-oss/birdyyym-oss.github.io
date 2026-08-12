@@ -1,0 +1,67 @@
+title: "Gallery"
+style: "style1 medium lightbox onscroll-fade-in"
+content: |
+  Here you can explore a visual archive of Yimeng's musical performances alongside photographs captured during her field research.</p>
+  <span class="demo-controls">)
+
+pictures:
+  - title: "Class Concert"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/yym00002.jpg"
+    thumb: "images/gallery/thumbs/yym00002.jpg"
+    button: "Details"
+
+  - title: "Class Concert"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/yym00003.jpg"
+    thumb: "images/gallery/thumbs/yym00003.jpg"
+    button: "Details"
+
+  - title: "Presentation in the college"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/yym00004.jpg"
+    thumb: "images/gallery/thumbs/yym00004.jpg"
+    button: "Details"
+
+  - title: "International Presentaion in Madrid"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/yym00005.jpg"
+    thumb: "images/gallery/thumbs/yym00005.jpg"
+    button: "Details"
+
+  - title: "International Presentaion in Madrid"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/yym00001.jpg"
+    thumb: "images/gallery/thumbs/yym00001.jpg"
+    button: "Details"
+
+  - title: "Tibetan Dancers"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/tibet00002.jpg"
+    thumb: "images/gallery/thumbs/tibet00002.jpg"
+    button: "Details"
+
+  - title: "Ani, the inheritor of the Gesar singing tradition"
+  # content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/tibet00001.jpg"
+    thumb: "images/gallery/thumbs/tibet00001.jpg"
+    button: "Details"
+
+  - title: "Tibetan Scrolls Making"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/tibet00003.jpg"
+    thumb: "images/gallery/thumbs/tibet00003.jpg"
+    button: "Details"
+
+  - title: "Tibetan Drum Player"
+  #  content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/tibet00004.jpg"
+    thumb: "images/gallery/thumbs/tibet00004.jpg"
+    button: "Details"
+
+  - title: "Ani shows his scrolls"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/tibet00005.jpg"
+    thumb: "images/gallery/thumbs/tibet00005.jpg"
+    button: "Details"
+    

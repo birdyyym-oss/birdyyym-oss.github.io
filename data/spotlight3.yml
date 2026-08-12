@@ -1,0 +1,38 @@
+####################### madrid2026 #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+title : "International Presentation | Madrid 2026"
+content: |
+  <em>The Sacred Word in Translation: Discourse Analysis of Ani’s Oral Narrative</em> Presented at the 8th International Symposium on Chinese Language and Discourse in Madrid, Spain (June 2026). This study examines the oral narrative traditions of King Gesar, focusing on the cross-linguistic expression and cultural transmission of sacred oral performance.
+    
+  <ul class="actions" style="margin-top: 2em;">
+  <li><a href="javascript:void(0)" class="button" onclick="document.getElementById('modal-spotlight3').classList.add('active')">Learn More</a></li>
+  </ul>
+
+  <div id="modal-spotlight3" class="custom-overlay">
+  <div class="custom-modal">
+    <a href="javascript:void(0)" class="modal-close" onclick="document.getElementById('modal-spotlight3').classList.remove('active')">&times;</a>
+    
+    <div class="modal-body box" style="margin: 0; border: none; background: transparent;">
+      <h3 style="color: #222; margin-bottom: 1em;">The Sacred Word in Translation: Discourse Analysis of Ani’s Oral Narrative</h3>
+      
+      <p>This presentation focuses on the Mandarin oral narratives of Ani, a national-level representative inheritor of the Gesar singing tradition from Dege, Garzê. It explores how the Epic of King Gesar is expressed within contemporary field interviews, intangible cultural heritage preservation, and academic research. Rather than viewing Ani’s Mandarin accounts as simple linguistic translation, the talk highlights how he re-explains story details, performance techniques, and his personal journey of lineage transmission when introducing Gesar singing to outside audiences.</p>
+      <p>Drawing directly on field interviews and oral material, the research examines hero stories, character relationships, vocal styles, performance practices, and transmission history. Here, "translation" is understood as a broader process: how Ani's oral experience is spoken, explained, organized, and shared in Mandarin.</p>
+
+      <p>Through analyzing transcript fragments and field notes, the presentation highlights three key roles of Mandarin narration in sharing the Gesar epic:</p>
+
+   <ul>
+      <li><strong>Clarity:</strong> It helps outside audiences easily grasp character dynamics, plotlines, and key narrative events.</li>
+      <li><strong>Vivid World-Building:</strong> Detailed descriptions of characters, attire, weaponry, and battle scenes offer listeners a direct window into the epic’s artistic universe.</li>
+      <li><strong>Documenting Performance:</strong> It translates non-verbal elements—vocal tone, rhythm, movement, and prop usage—into accessible written records.</li>
+    </ul>
+
+    <p>Ultimately, Ani’s Mandarin accounts do not replace traditional Tibetan oral performance; instead, they serve as a vital bridge for contemporary research and outreach. By articulating these stories in Mandarin, the Gesar tradition reaches wider audiences while bringing lived performance experience into fieldwork records and academic discourse.Modern heritage transmission isn't just about preserving the past—it’s also about re-expressing tradition across languages and cultures.</p>
+
+      </div>
+   </div>
+  </div>
+
+#button: 
+#  label: "Learn More"
+#  link: "#"
+image: "images/image00001.jpeg"

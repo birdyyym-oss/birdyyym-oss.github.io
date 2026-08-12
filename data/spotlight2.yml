@@ -1,0 +1,11 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Into the Tibetan Research"
+content: |
+  During her graduate studies, Yimeng has focused on the rich, living traditions of Tibetan performing arts. Her research explores the intersection of history, culture, and performance through four primary pillars: Tibetan Folk Songs, Tap Dance, Gesar Epic Singing and Tibetan Opera.</p>
+  Through a combination of extensive fieldwork, oral history interviews, and participant observation, Yimeng seeks to understand how these art forms are not merely preserved, but actively interpreted and passed down across generations.
+  
+#button: 
+#  label: "Learn More"
+#  link: "#"
+image: "images/IMG_2658.jpeg"

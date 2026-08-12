@@ -1,0 +1,73 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "BirdyYM's Nest"
+#subtitle: |
+content : |
+  Welcome. Here you will find the research achievements, musical performances, and multidisciplinary projects of <strong>Yimeng Yin</strong>, a graduate researcher in Art Theory at the Sichuan Conservatory of Music.
+
+  <ul class="actions" style="margin-top: 2em;">
+  <li><a href="javascript:void(0)" class="button primary" onclick="document.getElementById('modal-banner').classList.add('active')">About Yimeng</a></li>
+  </ul>
+
+  <div id="modal-banner" class="custom-overlay">
+    <div class="custom-modal">
+    <a href="javascript:void(0)" class="modal-close" onclick="document.getElementById('modal-banner').classList.remove('active')">&times;</a>
+    
+      <div class="modal-body box" style="margin: 0; border: none; background: transparent;">
+      <h3 style="color: #222; margin-bottom: 1em;"><strong>Yimeng Yin</strong>'s Education & Academic Background</h3>
+      
+      <ul>
+        <li><strong>Institution:</strong> Sichuan Conservatory of Music</li>
+        <li><strong>Degree:</strong> M.A. Candidate in Art Theory</li>
+        <li><strong>Research Focus:</strong> Art History, Ethnic Arts, Intangible Cultural Heritage (ICH), Oral History & Cross-Cultural Communication</li>
+      </ul>
+
+      <h4 style="color: #333; margin-top: 1.5em;">Publications</h4>
+      <ul>
+        <li><em>Summary of the 2nd Reba Dance Exhibition and Academic Symposium</em> (《第二届热巴舞展演暨热巴舞学术交流会综述》) — Beidahuang Culture, Issue 30, 2024.</li>
+        <li><em>Dynamic Transformation of Visual Art: Transmedia Narrative Exploration of "A Panorama of Rivers and Mountains" in the Dance Drama "Poetic Dance: The Journey of a Legendary Landscape Painting"</em> (《视觉艺术的动态性转化——〈千里江山图〉在舞剧〈只此青绿〉中跨媒介叙事的探索》) — Canhua, Issue 10, 2025.</li>
+        <li><em>Artistic Features and Style Analysis of Sanxingdui Culture</em> (《三星堆文化的艺术特征与风格分析》) — Exploration of Science, Issue 10, 2025.</li>
+        <li><em>Study on the Relationship Between the Chinese Dream and Personal Ideals</em> (《中国梦与个人理想的关系研究》) — Exploration of Science, Issue 11, 2025.</li>
+      </ul>
+
+      <h4 style="color: #333; margin-top: 1.5em;">Conference Presentations & Academic Symposia</h4>
+      <ul>
+        <li><strong>July–August 2026:</strong> Participant, First "Mutual Learning Among Civilizations" Summer Workshop (organized by the School of Humanities and the Institute for Global Civilization, Shanghai University of Finance and Economics). Engaged in lectures, discussions, and cross-cultural exchange in history, philosophy, philology, and political science.</li>
+        <li><strong>June 2026:</strong> Presenter, 8th International Symposium on Chinese Language and Discourse (ISCLD 8) at the Autonomous University of Madrid, Spain. Delivered an English presentation titled "The Sacred Word in Translation: Discourse Analysis of Ani’s Oral Narrative".</li>
+        <li><strong>November 2025:</strong> Presenter, 3rd Academic Symposium on High-Quality Development of Higher Music Education in Sichuan.</li>
+        <li><strong>October 2025:</strong> Presenter, National Academic Symposium on Ethnic Music Heritage and Digital Innovation in the Tibetan-Qiang-Yi Corridor.</li>
+        <li><strong>June 2025:</strong> Presenter, 12th Academic Conference of the China Graduate Education Alliance in Art Disciplines. Awarded 2nd Place Nationwide (Professional Paper Category).</li>
+      </ul>
+
+      <h4 style="color: #333; margin-top: 1.5em;">Research Projects</h4>
+      <ul>
+        <li><strong>Transmission, Promotion, and Practical Application of National-Level Intangible Cultural Heritage Thangka Art in Universities (2024–2025)</strong><br>Role: Key Member (University-level Innovation & Research Project, No. 202410654001s). Awarded "Outstanding Participant" in the study workshop (June 2025).</li>
+        <li><strong>Thousands of Knots in the Snowland: Sustainable Business Plan for Tibetan Wool & Hair Weaving (ICH) (2025)</strong><br>Role: Project Member. Awarded 3rd Prize in the Higher Education Main Track at the Sichuan Conservatory of Music International College Students' Innovation Competition (June 2025).</li>
+        <li><strong>Keyi: Hakka Cultural Digital Transmission & Tourism App (2025)</strong><br>Role: Team Member. Awarded 3rd Prize in the Creative Track ("Red Youth Dream Journey") at the Sichuan Conservatory of Music Competition.</li>
+      </ul>
+
+      <h4 style="color: #333; margin-top: 1.5em;">Cross-Cultural Exchange & Performance Practice</h4>
+      <ul>
+        <li><strong>January 2026:</strong> 2nd Prize (Sichuan Division), American Protégé International Music Competition (Chamber Music Open Category).</li>
+        <li><strong>January 2025:</strong> Completed the "Pilot Program" in Humanities, Education, Philosophy, and History at the University of Cambridge.</li>
+        <li><strong>October 2024:</strong> Author of the university news feature "Practice of Intangible Cultural Heritage: Tradition and Innovation Hand in Hand — Modern Exploration of Tibetan-Qiang Embroidery Transmission" (published on the official SCAC website).</li>
+      </ul>
+
+      <h4 style="color: #333; margin-top: 1.5em;">Honors & Awards</h4>
+      <ul>
+        <li>Graduate First-Class Academic Scholarship, Sichuan Conservatory of Music (2024–2025)</li>
+        <li>National 2nd Place, 12th Academic Conference of the China Graduate Education Alliance in Art Disciplines (Professional Paper Category)</li>
+        <li>2nd Prize (Sichuan Division), American Protégé International Music Competition (Chamber Music)</li>
+        <li>3rd Prize, SCAC International College Students' Innovation Competition (Higher Education Main Track)</li>
+        <li>3rd Prize, SCAC International College Students' Innovation Competition ("Red Youth Dream Journey" Track)</li>
+        <li>Outstanding Participant, National-Level ICH Thangka Workshop</li>
+      </ul>
+      </div>
+   </div>
+  </div>
+
+#button:
+# label : "Get Started"
+#  link : "#first"
+image : "images/image00005.jpeg"
+

@@ -1,0 +1,45 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "Hugo Story"
+copyright = "{year}"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
+baseURL = "/"
+publishDir = "public"
+
+# Remote
+#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#publishDir = "//centos/sites/hugodev/hugostory/"
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "section"]
+# googleAnalytics = "G-XXXXXXXXXX"
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "Yimeng's Portfolio."
+  logo = "images/favicon.ico"
+  favicon = true
+
+[Params.social]
+  email = "birdyyym@outlook.com"
+  linkedin = "https://www.linkedin.com/in/yimeng-yin-6139b5424/?locale=zh"
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]

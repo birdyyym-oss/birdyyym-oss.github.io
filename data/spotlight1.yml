@@ -1,0 +1,45 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "The Accordion Years"
+content: |
+  <p>From 2020 to 2024, Yimeng completed her undergraduate studies, during which she received systematic training in music performance, establishing a strong foundation in accordion and piano. This instrumental training equipped her with direct experience in performance practice, allowing her to later bridge the gap between rigorous musical technique and interdisciplinary art theory.</p>
+    Check the buttons below, you can listen to her solo and duet accordion performances.
+  
+  <ul class="actions" style="margin-top: 2em;">
+    <li><a href="javascript:void(0)" class="button" onclick="document.getElementById('modal-spotlight1').classList.add('active')">-Solo- 望春风</a></li>
+    <li><a href="javascript:void(0)" class="button" onclick="document.getElementById('modal-music2').classList.add('active')">-Duet- 遗忘</a></li>
+  </ul>
+  
+  <div id="modal-spotlight1" class="custom-overlay">
+    <div class="custom-modal">
+      <a href="javascript:void(0)" class="modal-close" onclick="document.getElementById('modal-spotlight1').classList.remove('active')">&times;</a>
+      
+      <div class="modal-body box" style="margin: 0; border: none; background: transparent;">
+
+      <audio controls style="width: 100%; margin-top: 1em;">
+       <source src="/audio/望春风.m4a" type="audio/mp4">
+      </audio>
+
+    </div>
+  </div>
+  </div>
+
+  <div id="modal-music2" class="custom-overlay">
+    <div class="custom-modal">
+      <a href="javascript:void(0)" class="modal-close" onclick="document.getElementById('modal-music2').classList.remove('active')">&times;</a>
+      
+      <div class="modal-body box" style="margin: 0; border: none; background: transparent;">
+
+      <audio controls style="width: 100%; margin-top: 1em;">
+       <source src="/audio/遗忘.mp3" type="audio/mp4">
+      </audio>
+
+    </div>
+  </div>
+  </div>
+  
+#button:
+#  label: "Learn More"
+#  link: "#"
+image: "images/image00002.png"
